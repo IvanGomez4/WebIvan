@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px grey;
+    background-color: rgb(213, 238, 248);
+}
+/* fdsglksjdfrñlgk */
+header {
+    background-color: #0092BE;
+    padding: 16px;
+}
+header img {
+    width: 100%;
+}
+header {
+    font-size: 30px;
+    text-align: center;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 80%;
+    float: right;
+    padding-bottom: 24px;
+}
+footer {
+    background-color: #0092BE;
+    color: rgb(8, 4, 56);
+    text-align: center;
+    font-size: 30px;
+    padding: 6px;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    list-style-type: none;
+    font-size: 22px;
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
+    color: darkblue;
+    border: solid 1px darkblue;
+    border-radius: 10px;
+}
+nav li:hover {
+    background-color: darkblue;
+    color: cyan;
+}
+.azulo {
+    color: darkblue;
+}
+a {
+    text-decoration: none;
+}
+#home {
+    text-align: center;
+}
+.titulo {
+    color: darkblue;
+    text-align: center;
+}
+.etiqueta {
+    font-size: 34px;
+    color: red;
+}
+.text-derecha {
+    text-align: right;
+}
+#enlaces a {
+    color: rgb(255, 157, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+#tablas table {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: center;
+}
+#tdefault th, #tcombi th {
+    background-color: rgb(7, 7, 70);
+    color: cornflowerblue;
+}
+#tdefault td, #tcombi td {
+    background-color: cornflowerblue;
+    color: rgb(7, 7, 70);
+}
+#tcebra th {
+    background-color: rgb(0, 255, 34);
+    color: rgb(3, 77, 7);
+}
+#tcebra tr:nth-child(odd) td{
+    background-color: rgb(127, 212, 106);
+}
+
+#tcebra tr:nth-child(even) td{
+    background-color: rgb(125, 173, 136);
+}
+#tablas #thorario table {
+    width: 90%;
+    margin: 0 auto;
+}
+#thorario th {
+    color: #008080;
+}
+#thorario td, #thorario th,#thorario table {
+    border: solid 1px black;
+}
+.lm {
+    background-color: #01B95C;
+}
+.prog {
+    background-color: #80FFFF;
+}
+.txt-24 {
+    font-size: 26px;
+}
+.ing {
+    background-color: #80FF81;
+}
+.ent {
+    background-color: #8080C0;
+}
+.fol {
+    background-color: #F0F0C8;
+}
+.sisi {
+    background-color: #FF8002;
+}
+.bd {
+    background-color: #64AA96;
+}
+.recreo {
+    color: #008080;
+    background-color: #F0F0F0;
+}
+#customo li li{
+    list-style-type: lower-alpha;
+}
+#customo li li li{
+    list-style-type: lower-roman;
+}
+#customd li{
+    list-style-type: square;
+}
+#customd li li{
+    list-style-image: url(../img/corazon.jpg);
+}
+#customd li li li{
+    list-style: none;
+}
+#formbasico fieldset {
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgb(255, 247, 238);
+    border-color: brown;
+}
+#formvariado fieldset {
+    width: 70%;
+    border-radius: 10px;
+    background-color: rgb(255, 247, 238);
+    border-color: brown;
+}
+#titulovideo {
+    text-align: left;
+}
+#video {
+    margin: 0 auto;
+}
+#formmodernotitulo {
+    font-size: 22px;
+    color: #00799e;
+    font-weight: 600;
+}
+#formmoderno fieldset {
+    border-radius: 10px;
+    background-color: #bce0eb;
+    box-shadow: #000000;
+}
+#formmoderno {
+    margin: 0 auto;
+    width: 60%;
+}
