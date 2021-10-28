@@ -77,7 +77,7 @@ a {
     text-align: right;
 }
 #enlaces a {
-    color: rgb(255, 157, 0);
+    color: rgb(132, 0, 255);
     font-weight: bold;
     font-size: 20px;
 }
@@ -86,13 +86,16 @@ a {
     margin: 0 auto;
     font-size: 22px;
     text-align: center;
+    border-radius: 6px;
+    border-color: #000000;
+    border-style: solid;
 }
 #tdefault th, #tcombi th {
-    background-color: rgb(7, 7, 70);
-    color: cornflowerblue;
+    background-color: rgb(0, 238, 255);
+    color: rgb(0, 2, 7);
 }
 #tdefault td, #tcombi td {
-    background-color: cornflowerblue;
+    background-color: rgb(255, 176, 5);
     color: rgb(7, 7, 70);
 }
 #tcebra th {
@@ -112,6 +115,7 @@ a {
 }
 #thorario th {
     color: #008080;
+    background-color: #F0F0F0;
 }
 #thorario td, #thorario th,#thorario table {
     border: solid 1px black;
