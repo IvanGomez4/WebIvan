@@ -5,12 +5,22 @@ body {
     width: 80%;
     margin: 0 auto;
     box-shadow: 0 0 20px grey;
-    background-color: rgb(213, 238, 248);
+    background-color: #00c6ff;
 }
-/* fdsglksjdfrñlgk */
+#contenido #home #titu {
+    color: #000000;
+    font-size: 40px;
+}
+#container #tituloheader {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+}
 header {
-    background-color: #0092BE;
+    background-color: #000000;
     padding: 16px;
+}
+#headerimg {
+    width: 100%;
 }
 header img {
     width: 100%;
@@ -18,6 +28,7 @@ header img {
 header {
     font-size: 30px;
     text-align: center;
+    color: #ffffff;
 }
 nav {
     width: 20%;
@@ -29,11 +40,12 @@ nav {
     padding-bottom: 24px;
 }
 footer {
-    background-color: #0092BE;
-    color: rgb(8, 4, 56);
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
-    font-size: 30px;
+    font-size: 23px;
     padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .cb {
     clear: both;
@@ -41,6 +53,7 @@ footer {
 nav ul, nav li {
     padding: 0;
     margin: 0;
+    box-shadow: #000000;
 }
 nav li {
     list-style-type: none;
@@ -48,13 +61,16 @@ nav li {
     text-align: center;
     padding: 8px;
     margin: 5px;
-    color: darkblue;
-    border: solid 1px darkblue;
+    color: #000000;
+    border: solid 2px #000000;
     border-radius: 10px;
+    font: 135% Tahoma;
+    box-shadow: #000000;
 }
 nav li:hover {
-    background-color: darkblue;
-    color: cyan;
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: #000000;
 }
 .azulo {
     color: darkblue;
@@ -66,18 +82,23 @@ a {
     text-align: center;
 }
 .titulo {
-    color: darkblue;
+    color: rgb(255, 255, 255);
     text-align: center;
+    font-size: 35px;
+    font: 250% fantasy;
 }
 .etiqueta {
     font-size: 34px;
-    color: red;
+    color: rgb(255, 0, 0);
 }
 .text-derecha {
     text-align: right;
 }
+#titulosenlaces {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 #enlaces a {
-    color: rgb(132, 0, 255);
+    color: rgb(11, 0, 172);
     font-weight: bold;
     font-size: 20px;
 }
@@ -86,32 +107,44 @@ a {
     margin: 0 auto;
     font-size: 22px;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 4px;
     border-color: #000000;
     border-style: solid;
+    background-color: rgb(255, 255, 255);
+}
+#tdefault, #tcombi, #tcebra {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#titulotablas {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #tdefault th, #tcombi th {
-    background-color: rgb(0, 238, 255);
-    color: rgb(0, 2, 7);
+    background-color: rgb(92, 92, 92);
+    color: #ffffff;
 }
 #tdefault td, #tcombi td {
-    background-color: rgb(255, 176, 5);
-    color: rgb(7, 7, 70);
+    background-color: rgb(153, 153, 153);
+    color: rgb(0, 0, 0);
 }
 #tcebra th {
-    background-color: rgb(0, 255, 34);
-    color: rgb(3, 77, 7);
+    background-color: rgb(92, 92, 92);
+    color: rgb(255, 255, 255);
 }
-#tcebra tr:nth-child(odd) td{
-    background-color: rgb(127, 212, 106);
+#tcebra td {
+    background-color: #969696;
 }
-
-#tcebra tr:nth-child(even) td{
-    background-color: rgb(125, 173, 136);
+#tcebra tr:nth-child(odd) td {
+    background-color: rgb(196, 196, 196);
+}
+#tcebra tr:nth-child(even) td {
+    background-color: rgb(145, 145, 145);
 }
 #tablas #thorario table {
     width: 90%;
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    border-radius: 0px;
 }
 #thorario th {
     color: #008080;
@@ -148,50 +181,82 @@ a {
     color: #008080;
     background-color: #F0F0F0;
 }
-#customo li li{
+#titulolistas {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#customo li li {
     list-style-type: lower-alpha;
 }
-#customo li li li{
+#customo li li li {
     list-style-type: lower-roman;
 }
-#customd li{
+#customd li {
     list-style-type: square;
 }
-#customd li li{
-    list-style-image: url(../img/corazon.jpg);
+#customd li li {
+    list-style-image: url(../img/corazon.png);
 }
-#customd li li li{
+#customd li li li {
     list-style: none;
+}
+#titulosformularios {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#login {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    background-color: rgb(255, 247, 238);
+    border-radius: 5px;
+    border: solid 2px;
+    border-color: brown;
 }
 #formbasico fieldset {
     width: 50%;
     border-radius: 10px;
     background-color: rgb(255, 247, 238);
     border-color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #formvariado fieldset {
     width: 70%;
     border-radius: 10px;
     background-color: rgb(255, 247, 238);
     border-color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #titulovideo {
     text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#video {
+#video { /*ARREGLAR*/
+    margin: 0 auto;
+}
+#tituloaudio {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#audio { /*ARREGLAR*/
     margin: 0 auto;
 }
 #formmodernotitulo {
     font-size: 22px;
     color: #00799e;
     font-weight: 600;
+    background-color: #bce0eb;
+    border: solid 2px;
+    border-color: #00384A;
+    border-radius: 5px;
 }
 #formmoderno fieldset {
     border-radius: 10px;
     background-color: #bce0eb;
     box-shadow: #000000;
+    border-color: #00799e;
 }
 #formmoderno {
     margin: 0 auto;
     width: 60%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
